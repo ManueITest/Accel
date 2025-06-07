@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+ 
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+ 
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+ 
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+ 
+; -- Common Information
+ 
+[Scheme.Cur]
+Alternate.cur
+Busy.ani
+Default.cur
+Diagonal Resize 1.cur
+Diagonal Resize 2.cur
+Handwriting.cur
+Help.cur
+Horizontal Resize.cur
+Link.cur
+Move.cur
+Precision.cur
+Text.cur
+can't do.cur
+Vertical Resize.cur
+Working.ani
+
+[Strings]
+
+CUR_DIR       = "mac\cursor files"
+SCHEME_NAME   = "mac :)"
+pointer       = "Default.cur"
+help          = "Help.cur"
+work          = "Working.ani"
+busy          = "Busy.ani"
+text          = "Text.cur"
+unavailiable  = "can't do.cur"
+vert          = "Vertical Resize.cur"
+horz          = "Horizontal Resize.cur"
+dgn1          = "Diagonal Resize 1.cur"
+dgn2          = "Diagonal Resize 2.cur"
+move          = "Move.cur"
+link          = "Link.cur"
+cross         = "Precision.cur"
+hand          = "Move.cur"
+alternate     = "Alternate.cur"
