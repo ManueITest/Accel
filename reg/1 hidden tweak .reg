@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"RmClkPowerOffDramPllWhenUnused"=dword:00000000
+"RMDisableGpuASPMFlags"=dword:00000003
+"RMDisablePerIntrDPCQueueing"=dword:00000001
+"RMGC6Feature"=dword:000aaaaa
+"RMElpgStateOnInit"=dword:00000003
+"RMDisableOptimalPowerForPadlinkPll"=dword:00000001
+"RMPcieLtrOverride"=dword:00000002
+"RmMIONoPowerOff"=dword:00000001
+"RMGC6Parameters"=dword:00000055
+"TCCSupported"=dword:00000000
+"PruningMode"=dword:00000000
+"RMFspg"=dword:0000000F
+"RMGpuId"=dword:00000100
